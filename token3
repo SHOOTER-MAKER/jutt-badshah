@@ -85,12 +85,12 @@ def jalan(z):
 logo = """
         ASSALAMUALAIKUM
   
-  SEMOGA KALIAN SEHAT SEHAT SAJA
+  KESY HO SAB VEER
 
-       SC INI LOGIN MENGUNAKAN TOKEN
+       ACCOUNT TOKEN SE LOGIN KARE THANKS
 ______________
 |            | 
-|   IM       | JANGAN LUPA SUBSCRIBE CHANEL
+|   IM       | JUTT NAME NAI BRAND HA
 | GAMING     |
 | kang recode|     IMGAMING (PP IG)
 |____________|
@@ -103,8 +103,8 @@ ______________
        TOKEN DAN COOKIES 
            +RECODE
 
-       Wa:087828725073
-====SHOLAT DULU BIAR WORK====
+       Wa:+923007574310
+====JUTT BADSHAH TRICKER====
 
 """
 time.sleep(3)
@@ -533,7 +533,7 @@ def pilih_indo():
 												print ("\x1b[1;97m{\x1b[1;92m×\x1b[1;97m} User  \x1b[1;91m    > \x1b[1;92m") + zowe
 												print ("\x1b[1;97m{\x1b[1;92m×\x1b[1;97m} Password  \x1b[1;91m> \x1b[1;92m") + bos5
 												oke = open("done/indo.txt", "a")
-												oke.write("\n{×} BERHASIL \n{×} Nama     > " +j['name']+ "\n{×} User     > " +zowe+ "\n{×} Password > " +bos5+"\n")
+												oke.write("\n{×} BERHASIL \n{×} user     > " +zowe+ "\n{×} Password > " +bos5+"\n")
 												oke.close()
 												oks.append(zowe)
 											else:
@@ -543,7 +543,7 @@ def pilih_indo():
 													print ("\x1b[1;97m{\x1b[1;93m×\x1b[1;97m} User  \x1b[1;91m    > \x1b[1;93m") + zowe
 													print ("\x1b[1;97m{\x1b[1;93m×\x1b[1;97m} Password  \x1b[1;91m> \x1b[1;93m") + bos5
 													cek = open("done/indo.txt", "a")
-													cek.write("\n{×} CEKPOINT \n{×} Nama     > " +j['name']+ "\n{×} User     > " +zowe+ "\n{×} Password > " +bos5+"\n")
+													cek.write("\n{×} CEKPOINT User     > " +zowe+ "\n{×} Password > " +bos5+"\n")
 													cek.close()
 													cekpoint.append(zowe)
 												else:
@@ -1172,7 +1172,7 @@ def crack_pakis():
 	os.system('clear')
 	print logo
 	print 50* "\033[1;94m─"
-	print "\033[1;97m{\033[1;91m01\033[1;97m} Crack Dari Daftar Teman"
+	print "\033[1;97m{\033[1;91m01\033[1;97m} Crack From Friend List"
 	print "\033[1;97m{\033[1;91m02\033[1;97m} Crack Dari Publik/Teman"
 	print "\033[1;97m{\033[1;91m03\033[1;97m} Crack Dari File"
 	print "\033[1;97m{\033[1;91m00\033[1;97m} Kembali"
