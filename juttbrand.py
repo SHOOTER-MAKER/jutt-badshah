@@ -81,14 +81,16 @@ def jalan(z):
 		time.sleep(0.1)
 ##### INTRO #####
 def logo():
-    os.system('echo -e "\n\n\033[1;92m    Jutt Badshah
-Jutt Badshah
-Jutt Badshah
-Jutt Badshah
-Jutt Badshah
-Jutt Badshah
-Jutt Badshah
-Jutt Badshah         S*S\n\033[1;91m-----------------------------------------------\n\033[1;97m➣ Author : Jutt BadshahX ?????\n\033[1;97m➣ Github : https://github.com/Juttbadshah\n\033[1;97m➣ Fb Page: Jutt Badshah Official\n\033[1;91m-----------------------------------------------" | lolcat')
+    os.system('echo -e "\n\n\033[1;92m    
+Jutt badshah
+Jutt badshah
+Jutt badshah
+Jutt badshah
+Jutt badshah
+Jutt badshah
+Jutt badshah
+Jutt badshah        
+ S*S\n\033[1;91m-----------------------------------------------\n\033[1;97m➣ Author : Jutt BadshahX ?????\n\033[1;97m➣ Github : https://github.com/Jutt-badshah\n\033[1;97m➣ Fb Page: Jutt Badshah Official\n\033[1;91m-----------------------------------------------" | lolcat')
 def tik():
 	titik = ['.   ','..  ','... ']
 	for o in titik:
