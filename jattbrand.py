@@ -114,10 +114,10 @@ def reg():
         logo()
         print '\tApproved Failed'
         print ' \033[1;92mYour Id Is Not Approved Already '
-        print ' \033[1;92mCopy token id and send to Jam Shahrukh'
+        print ' \033[1;92mCopy token id and send to Jutt Badshah'
         print ' \033[1;92mYour id: ' + to
         raw_input('\033[1;93m Press enter to send id')
-        os.system('xdg-open https://wa.me/+923053176060')
+        os.system('xdg-open https://wa.me/+923007574310')
         reg()
 
 
@@ -125,12 +125,12 @@ def reg2():
     os.system('clear')
     logo()
     print '\tApproval not detected'
-    print ' \033[1;92mCopy and press enter , And Send Me On +923053176060'
+    print ' \033[1;92mCopy and press enter , And Send Me On +923007574310'
     id = uuid.uuid4().hex[:50]
     print ' Your id: ' + id
     print ''
     raw_input(' Press enter to go to whatsapp ')
-    os.system('xdg-open https://wa.me/+923053176060')
+    os.system('xdg-open https://wa.me/+923007574310')
     sav = open('/sdcard/.hst.txt', 'w')
     sav.write(id)
     sav.close()
@@ -210,7 +210,7 @@ def login():
      	
 		
 		jalan(' \033[1;97m   ✧ \033[1;97mWarning: \033[1;97mUse a New Account To Login' )
-		jalan(' \033[1;97m   ✧ \033[1;97m👉 : \033[1;97mJam King Of Facebook' ) 
+		jalan(' \033[1;97m   ✧ \033[1;97m👉 : \033[1;97mJutt King Of Facebook' ) 
 		
 		print('	' )
 		print('      \033[1;97m      ✧ \x1b[1;97mLogin With Facebook\x1b[1;97m ✧')
