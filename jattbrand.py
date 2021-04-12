@@ -27,7 +27,7 @@ except ImportError:
     os.system('pip2 install requests')
     os.system('pip2 install mechanize')
     os.system("pip2 install lolcat")
-    os.system('python2 shahrukh.py')
+    os.system('python2 jattbrand.py')
     __author__ = 'Mr.James'
     __copyright = 'All rights reserved . Copyright  Mr.James'
 os.system('termux-setup-storage')
